@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    {
+        var persons = [
+            { name:'Mark',mass:null,height:null,bmi:null },
+            { name:'John',mass:null,height:null,bmi:null }
+        ];
+        var fact;
+        persons[0].mass=62;
+        persons[0].height=1.78;
+        persons[1].mass=74;
+        persons[1].height=1.8;
+        persons[0].bmi=(persons[0].mass/(persons[0].height**2))
+        persons[1].bmi=(persons[1].mass/(persons[1].height**2))
+        console.log(persons[0].name+' BMI is :',persons[0].bmi);
+        console.log(persons[1].name+' BMI is :',persons[1].bmi);
+        fact=(persons[0].bmi>persons[1].bmi);
+        console.log("Is Mark's BMI higher than John's?",fact);
+    }
+</script>
+</body>
+</html>
+
+
