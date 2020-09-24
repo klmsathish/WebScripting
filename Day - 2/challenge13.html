@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+                function test_prime(n){
+                    if (n===1){
+                        console.log("The number "+a+" is not prime");}
+                    else if(n === 2)
+                    {
+                        console.log("The number "+a+"  is prime");}
+                    else
+                    {for(var x = 2; x < n; x++)
+                        {
+                        if(n % x === 0)
+                        {
+                            console.log("The number "+a+" is not prime");
+                        }
+                        }
+                        console.log("The number "+a+" is prime");  
+                    }}
+a = 37
+console.log(test_prime(37));
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myObj(name,phone,age){
+        this.Uname= name;
+        this.Uphone= phone;
+        this.Uage= age;
+        }
+
+
+        let myArray = [new myObj("Sathish",125635412,19), new myObj("Raj",9877546220,29),new myObj("Dany",9791145220,29)]
+        console.log("Printing using For of ");
+
+        for (var x of myArray) {
+            console.log(x)
+            
+        }
+        console.log("Printing using For in ");
+        for(x in myArray){
+            console.log(myArray[x])
+        }
+</script>
+</body>
+</html>

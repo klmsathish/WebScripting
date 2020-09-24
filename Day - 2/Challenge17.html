@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       //1
+        var JohnScore = (89 + 120 + 103) / 3;
+        var MikeScore = (116 + 94 + 123) / 3;
+        console.log("JohnScore: " + JohnScore, "MikeScore: " + MikeScore);
+        //2
+        if (JohnScore > MikeScore) {
+        console.log("John's team wins with " + JohnScore + " points!")
+        } 
+        else if (MikeScore > JohnScore) {
+    console.log("Mike's team wins with " + MikeScore + " points!")
+
+} else {
+        console.log("There is a draw!")}
+        //3
+        var JohnScore = (110 + 120 + 103) / 3; 
+        var MikeScore = (116 + 94 + 123) / 3;
+        console.log("JohnScore: " + JohnScore, "MikeScore: " + MikeScore);
+        if (JohnScore > MikeScore) {
+            console.log("John's team wins with " + JohnScore + " points!")
+        } else if (MikeScore > JohnScore) {
+            console.log("Mike's team wins with " + MikeScore + " points!")
+        } else {
+            console.log("There is a draw!")
+        }
+        //4
+        var JohnScore = (89 + 120 + 103) / 3; 
+        var MikeScore = (119 + 94 + 123) / 3; 
+        var MaryScore = (97 + 134 + 105) / 3;
+
+        console.log("JohnScore: " + JohnScore, "MikeScore: " + MikeScore, "MaryScore: "+ MaryScore + ". ");
+        if (JohnScore > MikeScore && JohnScore > MaryScore) {
+            console.log("John's team wins with " + JohnScore + " points!")
+        } else if (MikeScore > JohnScore && MikeScore> MaryScore) {
+            console.log("Mike's team wins with " + MikeScore + " points!")
+
+        } else if (MaryScore > JohnScore && MaryScore> MikeScore) {
+            console.log("Mary's team wins with " + MaryScore + " points!")
+
+        } else {
+            console.log("There is a draw!")
+        }
+   </script> 
+</body>
+</html> 
